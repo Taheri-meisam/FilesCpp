@@ -97,7 +97,7 @@ int main() {
 	std::string buff;
 	std::ifstream storyFile;
 
-	storyFile.open("e:\\storyFiles\\story1.txt");
+	storyFile.open("e:\\storyFiles\\story1.txt"); //std::ios::binary
 	while (Keyword != "q") {
 		std::cout << " type the word you are looking for : ";
 		std::getline(std::cin, Keyword);
